@@ -1061,6 +1061,19 @@ const makeStyles = (colors: AppColors) =>
     header: {
       gap: 6,
     },
+    mockBadge: {
+      alignSelf: 'center',
+      backgroundColor: colors.warningBg,
+      borderRadius: 6,
+      paddingHorizontal: 10,
+      paddingVertical: 4,
+      marginTop: 8,
+    },
+    mockBadgeText: {
+      fontSize: 12,
+      fontWeight: '700',
+      color: colors.warning,
+    },
     statusPill: {
       alignSelf: 'flex-start',
       paddingHorizontal: 10,

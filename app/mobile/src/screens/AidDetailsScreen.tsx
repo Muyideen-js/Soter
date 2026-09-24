@@ -745,7 +745,7 @@ const TimelineMilestoneRow = ({
               onPress={handleCopyHash}
               activeOpacity={0.8}
             >
-              <Text style={styles.timelineActionText}>{t('aidDetails.copyHash')}</Text>
+              <Text style={styles.timelineActionText}>Copy Hash</Text>
             </TouchableOpacity>
           </View>
         ) : null}
